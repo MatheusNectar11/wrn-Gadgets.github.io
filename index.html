@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cellphone Shop</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Cellphone Shop</h1>
+  </header>
+
+  <!-- Search and Category Filters -->
+  <div class="search-filter">
+    <input type="text" id="search" placeholder="Search for products...">
+    <select id="category">
+      <option value="">All Categories</option>
+      <option value="Phones">Phones</option>
+      <option value="Accessories">Accessories</option>
+    </select>
+  </div>
+
+  <!-- Product List -->
+  <div class="product-list" id="product-list"></div>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-modal-content">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div id="cart-total"></div>
+      <button id="checkout-btn" onclick="proceedToCheckout()" disabled>Proceed to Checkout</button>
+      <button onclick="closeCart()">Close</button>
+    </div>
+  </div>
+
+  <!-- Cart Toggle Button -->
+  <button id="cart-toggle" onclick="toggleCart()">Cart (0)</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

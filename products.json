@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "iPhone 13",
+      "price": 12000,
+      "category": "phones",
+      "image": "images/iphone13.jpg",
+      "description": "6.1-inch Super Retina XDR display, A15 Bionic chip, and 5G connectivity.",
+      "stock": 5
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S21",
+      "price": 10500,
+      "category": "phones",
+      "image": "images/s21.jpg",
+      "description": "Triple-camera system, Dynamic AMOLED 2X display, and powerful Exynos processor.",
+      "stock": 7
+    },
+    {
+      "id": 3,
+      "name": "AirPods Pro",
+      "price": 3500,
+      "category": "accessories",
+      "image": "images/airpods.jpg",
+      "description": "Noise-cancelling wireless earbuds with Adaptive EQ and spatial audio.",
+      "stock": 10
+    },
+    {
+      "id": 4,
+      "name": "Wireless Charger",
+      "price": 800,
+      "category": "accessories",
+      "image": "images/charger.jpg",
+      "description": "Fast wireless charging pad compatible with iPhone and Samsung devices.",
+      "stock": 15
+    }
+]
